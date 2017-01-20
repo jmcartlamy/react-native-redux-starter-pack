@@ -8,7 +8,7 @@ class ExampleComponent extends Component {
   render() {
     return (
       <Text style={styles.instructions}>
-        To get started, edit index.android.js
+        To get started, edit app/index.js
       </Text>
     )
   }

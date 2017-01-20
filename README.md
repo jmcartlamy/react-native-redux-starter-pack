@@ -1,14 +1,14 @@
-## React Native Redux Starter Pack
+# React Native Redux Starter Pack
 
-Starter Pack including [React Native](https://github.com/facebook/react-native) &[Redux](https://github.com/reactjs/redux), with a optionnal[support CSS or SASS/SCSS ](https://github.com/sabeurthabti/react-native-css)
+Starter Pack including [React Native](https://github.com/facebook/react-native) & [Redux](https://github.com/reactjs/redux), with an optional [support CSS or SASS/SCSS ](https://github.com/sabeurthabti/react-native-css).
 
-### Setup React Native
+## Setup React Native
 
-Before starting a new project with React Native Redux (RNR) Starter Pack, please follow this[tutorial](https://facebook.github.io/react-native/releases/next/docs/getting-started.html) up to the **Testing installation** part.
+Before starting a new project with React Native Redux (RNR) Starter Pack, please follow this [tutorial](https://facebook.github.io/react-native/releases/next/docs/getting-started.html) up to the **Testing installation** part.
 
-This [tutorial](https://facebook.github.io/react-native/releases/next/docs/getting-started.html) will help you install React Native on your system. If you already have React Native installed, you can skip ahead to the Install.
+This [tutorial](https://facebook.github.io/react-native/releases/next/docs/getting-started.html) will help you install React Native on your system. If you already have React Native installed, you can skip ahead to the **Install**.
 
-### Install
+## Install
 
 Clone or download this repository and install dependencies :
 
@@ -16,26 +16,27 @@ Clone or download this repository and install dependencies :
 $ npm install
 ```
 
-### Usage
+## Usage
 
-#### Launch the Virtual Device
+### Launch the Virtual Device
 
 If you use a virtual device, these steps change depending this one *(iOS or Android device)*.
 
-##### Android Virtual Device
+#### Android Virtual Device
 
 In a new terminal, run the following command if this is not already done :
 ```
 android avd
 ```
+Then start your virtual device and wait.
 
-If you have issues with this command, please check the troubleshooting.
+*If you have issues with this command, please go ahead to the troubleshooting.*
 
-##### Xcode
+#### Xcode
 
-Follow [Xcode Help](http://help.apple.com/xcode/mac/8.0/#/devdc0193470) for build and run your app
+Follow [Xcode Help](http://help.apple.com/xcode/mac/8.0/#/devdc0193470) for build and run your app.
 
-#### Run project
+### Run project
 
 In another terminal, run your project with the following command :
 ```
@@ -44,9 +45,9 @@ react-native run-android
 
 or `react-native run-ios` if you have an iOS device.
 
-#### Add support CSS or SASS/SCSS [Optionnal]
+### Add support CSS or SASS/SCSS [Optionnal]
 
-This support use [React-native-cs](https://github.com/sabeurthabti/react-native-css) package. It turns valid CSS/SASS into the Facebook subset of CSS.
+This support use [React-native-css](https://github.com/sabeurthabti/react-native-css) package. It turns valid CSS/SASS into the Facebook subset of CSS.
 
 Inside your project, launch a new terminal and run the following command :
 
@@ -54,12 +55,12 @@ Inside your project, launch a new terminal and run the following command :
 react-native-css -i ./app/styles.scss -o ./app/styles.js -w -p
 ```
 
-### Troubleshooting
+## Troubleshooting
 
-These are some common issues you may run into while setting up React Native. If you encounter something that is not listed here, try this[page](https://github.com/facebook/react-native/blob/master/docs/Troubleshooting.md)
+These are some common issues you may run into while setting up React Native. If you encounter something that is not listed here, try this [page](https://github.com/facebook/react-native/blob/master/docs/Troubleshooting.md)
 
 #### SDK location not found
-Verify your **ANDROID_HOME environment variable**. With macOS or Linux, run `printenv` and check if**ANDROID_HOME**exist. If not, run this command `source ~/.bashrc` and retry.
+Verify your **ANDROID_HOME environment variable**. With macOS or Linux, run `printenv` and check if **ANDROID_HOME** exist. If not, run this command `source ~/.bashrc` and retry.
 
 #### Error with react-native-css
 
@@ -78,7 +79,7 @@ First, run `android avd`. In his window, select « Device Definitions » and a
 
 Start your new virtual device and retry.
 
-### Note
+## Note
 
 This is a beta version.
 Below you will find some information on how to perform common tasks with React Native,
