@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+
 import styles from '../styles.js';
 
-export default class scrumTimerNative extends Component {
+export default class Index extends Component {
   render() {
     return (
       <View style={styles.container}>
