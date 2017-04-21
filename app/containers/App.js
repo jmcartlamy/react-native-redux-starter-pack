@@ -24,7 +24,7 @@ class App extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to Scrum Timer Native!
+          Welcome to React Native !
         </Text>
         <ExampleComponent />
         <Text style={styles.instructions}>
