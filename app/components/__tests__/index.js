@@ -1,6 +1,6 @@
 import 'react-native';
 import React from 'react';
-import Index from '../app/index.js';
+import Index from '../../Root.js';
 
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';

@@ -1,6 +1,10 @@
+/*
+  Container folder contains connected components
+ */
+
 import React, { Component } from 'react';
 
-import ExampleComponent from '../components/ExampleComponent.js';
+import ExampleComponent from '../presentational/ExampleComponent.js';
 import styled from 'styled-components/native';
 
 /*

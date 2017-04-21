@@ -1,6 +1,6 @@
 import React from 'react';
 import { AppRegistry } from 'react-native';
-import App from './app/index.js';
+import Root from './app/Root.js';
 
 
-AppRegistry.registerComponent('scrumTimerNative', () => App);
+AppRegistry.registerComponent('scrumTimerNative', () => Root);
