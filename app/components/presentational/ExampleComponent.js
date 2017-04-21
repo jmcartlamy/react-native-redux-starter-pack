@@ -15,7 +15,7 @@ class ExampleComponent extends Component {
   render() {
     return (
       <GetStartedText>
-        To get started, edit app/index.js
+        To get started, check app/Root.js
       </GetStartedText>
     )
   }
