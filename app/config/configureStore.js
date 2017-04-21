@@ -1,4 +1,5 @@
-import { createStore } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk';
 
 /*
  Creates a Redux store that holds the complete state tree of your app.
@@ -10,7 +11,8 @@ import { createStore } from 'redux';
 
 const reducer = () => {};
 const preloadedState = {};
+const middleWares = [thunk];
 
 export default () => {
-  return createStore(reducer, preloadedState);
+  return createStore(reducer, preloadedState, applyMiddleware(...middleWares));
 }
