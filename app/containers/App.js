@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import ExampleComponent from '../components/ExampleComponent.js'
-import { Text, View } from 'react-native';
+import ExampleComponent from '../components/ExampleComponent.js';
+import styled from 'styled-components/native';
 
 /*
   Example with reducer / action :
@@ -10,6 +10,29 @@ import { Text, View } from 'react-native';
   import { connect } from 'react-redux';
   import * as exampleActions from '../actions/exampleActions.js';
  */
+
+/*
+  Styled-components
+  */
+
+const Container = styled.View`
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5FCFF;
+`;
+
+const WelcomeText = styled.Text`
+  font-size: 20;
+  text-align: center;
+  margin: 10;
+`;
+
+const InstructionsText = styled.Text`
+  text-align: center;
+  color: #333333;
+  margin-bottom: 6;
+`;
 
 class App extends Component {
   render() {
@@ -20,16 +43,16 @@ class App extends Component {
      */
 
     return (
-      <View>
-        <Text>
+      <Container>
+        <WelcomeText>
           Welcome to React Native !
-        </Text>
+        </WelcomeText>
         <ExampleComponent />
-        <Text>
+        <InstructionsText>
           Double tap R on your keyboard to reload,{'\n'}
           Shake or press menu button for dev menu
-        </Text>
-      </View>
+        </InstructionsText>
+      </Container>
     );
   }
 }

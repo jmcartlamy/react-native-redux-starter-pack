@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
-import { Text } from 'react-native';
+import styled from 'styled-components/native';
+
+const GetStartedText = styled.Text`
+  font-weight: 700;
+  margin-bottom: 15;
+`;
 
 class ExampleComponent extends Component {
 
   render() {
     return (
-      <Text>
+      <GetStartedText>
         To get started, edit app/index.js
-      </Text>
+      </GetStartedText>
     )
   }
 }
