@@ -1,6 +1,6 @@
 {
   "name": "react-native-redux-starter-pack",
-  "version": "0.2.0-beta",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
