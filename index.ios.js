@@ -3,4 +3,4 @@ import { AppRegistry } from 'react-native';
 import Root from './app/Root.js';
 
 
-AppRegistry.registerComponent('scrumTimerNative', () => Root);
+AppRegistry.registerComponent('reactNativeReduxStarterPack', () => Root);

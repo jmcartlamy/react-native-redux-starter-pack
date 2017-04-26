@@ -44,25 +44,14 @@ android_library(
 )
 
 android_build_config(
-<<<<<<< ours
-  name = 'build_config',
-  package = 'com.scrumtimernative',
-)
-
-android_resource(
-  name = 'res',
-  res = 'src/main/res',
-  package = 'com.scrumtimernative',
-=======
     name = "build_config",
-    package = "com.react-native-redux-starter-pack",
+    package = "com.reactnativereduxstarterpack",
 )
 
 android_resource(
     name = "res",
-    package = "com.react-native-redux-starter-pack",
+    package = "com.reactnativereduxstarterpack",
     res = "src/main/res",
->>>>>>> theirs
 )
 
 android_binary(
