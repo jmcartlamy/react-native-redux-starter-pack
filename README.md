@@ -10,11 +10,25 @@ It will help you install **react-native** on your system. If you already install
 
 ## Install
 
+Make sure that [yarn](https://yarnpkg.com/lang/en/) is installed on your computer. 
+
 Clone or download this repository and install dependencies :
 
 ```
-npm install
+yarn
 ```
+
+## Debug
+
+**React-devtools**
+
+* Run the command `yarn run devtools` while app is running.
+
+**Redux devtools**
+
+* Download the [Redux DevTools extension](https://github.com/zalmoxisus/redux-devtools-extension)
+* Open the remote devtool (right click on any web page > Redux DevTools > Open Remote DevTools)
+* Select your current running app from the picker (top/right of the window)
 
 ## Usage
 
