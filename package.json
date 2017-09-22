@@ -6,6 +6,8 @@
     "precommit": "lint-staged",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
+    "run-android": "react-native run-android",
+    "run-ios": "react-native run-ios",
     "devtools": "react-devtools"
   },
   "lint-staged": {

@@ -4,7 +4,7 @@
 
 import React, { Component } from 'react';
 
-import ExampleComponent from '../presentational/ExampleComponent.js';
+import ExampleComponent from './ExampleComponent.js';
 import styled from 'styled-components/native';
 
 /*
