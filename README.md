@@ -37,7 +37,7 @@ yarn
 Run on IOS simulator or connected device :
 
 ```
-react-native run-ios
+yarn run-ios
 ```
 
 **Command⌘ + R**  in your iOS Simulator to reload the app and see your change!
@@ -55,7 +55,7 @@ android avd
 Run on Android simulator or connected device :
 
 ```
-react-native run-android
+yarn run-android
 ```
 
 Press the **R key twice** in your Android Simulator to reload the app.
@@ -63,43 +63,6 @@ Press the **R key twice** in your Android Simulator to reload the app.
 **Command⌘  +  M** to open debugger when running in an Android emulator.
 
 *Docker and Android emulators using HAXM cannot run together. To resolve this problem, close Docker on Mac or use a remote android device.*
-
-### Running on device
-
-You may be looking the official guide : https://facebook.github.io/react-native/docs/running-on-device.html
-
-## Troubleshooting
-
-These are some common issues you may run into while setting up React Native. If you encounter something that is not listed here, try this [page](https://github.com/facebook/react-native/blob/master/docs/Troubleshooting.md).
-
-#### adb - not command found
-
-Install **Android Debug Bridge (adb)**. These following steps are the easiest way and will provide automatic updates.
-
-1. Install [homebrew ](https://brew.sh/) 
-    
-    `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" `
-        
-2. Install adb
-
-    `brew install android-platform-tools `
-    
-3. Start using adb 
-
-    `adb devices `
-
-#### AVD error, or 'message' of undefined, or lagging
-
-There is an issue with your AVD. 
-
-First, run `android avd`. In his window, select « Device Definitions » and add a generic device, then create AVD with those options :
-* Target : 6.0
-* CPU : Intel Atom x86_64
-* Skin: No skin
-* Change internal storage (1000)
-* Check « Use Host GPU » (for no lags)
-
-Start your new virtual device and retry.
 
 ## Note
 
