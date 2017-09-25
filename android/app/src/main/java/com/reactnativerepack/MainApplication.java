@@ -1,4 +1,4 @@
-package com.reactnativereduxstarterpack;
+package com.reactnativerepack;
 
 import android.app.Application;
 

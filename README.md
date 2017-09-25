@@ -1,10 +1,10 @@
-# React Native Redux Starter Pack
+# React Native Repack
 
 Starter Pack including [react-native](https://github.com/facebook/react-native) & [redux](https://github.com/reactjs/redux), using [styled-component](https://github.com/styled-components/styled-components).
 
 ## Setup react-native
 
-Before starting a new project with `React Native Redux Starter Pack`, please follow this [tutorial](https://facebook.github.io/react-native/releases/next/docs/getting-started.html) up to the **Testing installation** part.
+Before starting a new project with `React Native Repack`, please follow this [tutorial](https://facebook.github.io/react-native/releases/next/docs/getting-started.html) up to the **Testing installation** part.
 
 It will help you install **react-native** on your system. If you already installed react-native, you can skip ahead to the [Install](#Install).
 
